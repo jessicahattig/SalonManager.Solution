@@ -1,6 +1,13 @@
 @{
   Layout = "_Layout";
 }
+<div class="header">
+  <h1>Welcome to SalonPro</h1>
 
-<h1>Welcome to the Salon Manager Application!</h1>
-<p>@Html.ActionLink("See all clients", "Index", "Clients")</p> <p>@Html.ActionLink("See all stylists", "Index", "Stylists")</p>
+
+  <p>This application offers to assist salon owners in efficiently managing hair stylists and clients.</p>
+</div>
+
+<nav class="navbar">
+  <p>@Html.ActionLink("See all clients", "Index", "Clients")</p> <p>@Html.ActionLink("See all stylists", "Index", "Stylists")</p>
+</nav>

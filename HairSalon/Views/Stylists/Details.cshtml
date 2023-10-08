@@ -4,8 +4,9 @@
 
 @model HairSalon.Models.Stylist
 @using HairSalon.Models
-
-<h2>Stylist Details</h2>
+<div class="header">
+  <h2>Stylist Details</h2>
+</div>
 <hr />
 <h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)<h3>
 
@@ -15,7 +16,7 @@
 } 
 else
 {
-  <h3>Client:</h3>
+  <h3>Client List:</h3>
   <ul>
     @foreach (Client client in Model.Clients)
     {
@@ -23,7 +24,8 @@ else
     }
   </ul>
 }
-
-<p>@Html.ActionLink("Edit Stylist", "Edit", new { id = Model.StylistId })</p>
-<p>@Html.ActionLink("Delete Stylist", "Delete", new { id = Model.StylistId })</p>
-<p>@Html.ActionLink("Back to list", "Index")</p>
+<nav class="navbar">
+  <p>@Html.ActionLink("Edit Stylist", "Edit", new { id = Model.StylistId })</p>
+  <p>@Html.ActionLink("Delete Stylist", "Delete", new { id = Model.StylistId })</p>
+  <p>@Html.ActionLink("Back to list", "Index")</p>
+</nav>

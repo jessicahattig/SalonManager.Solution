@@ -4,7 +4,9 @@
 
 @model HairSalon.Models.Client
 
-<h2>Edit</h2>
+<div class="header">
+  <h2>Edit</h2>
+</div>
 
 <h4>Edit this client: @Html.DisplayFor(model => model.Description)</h4>
 
@@ -20,5 +22,6 @@
 
   <input type="submit" value="Save" />
 }
-
-<p>@Html.ActionLink("Back to list", "Index")</p>
+<nav class="navbar">
+  <p>@Html.ActionLink("Back to list", "Index")</p>
+</nav>

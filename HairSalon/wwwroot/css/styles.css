@@ -1,0 +1,60 @@
+/* Background for the entire page */
+body {
+  background-color: #9bc5e0; 
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header style */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Navigation menu style */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: disc;
+  margin: 10px 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
