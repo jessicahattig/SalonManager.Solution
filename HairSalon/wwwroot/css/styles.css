@@ -1,6 +1,6 @@
 /* Background for the entire page */
 body {
-  background-color: #9bc5e0; 
+  background-color: #9bc5e0;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -30,12 +30,37 @@ body {
   margin: 0 20px;
 }
 
-h1 {
+h4 {
   font-size: 24px;
   margin-bottom: 20px;
 }
 
-input {
+/* Form container */
+.form-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Form label style */
+.form-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Text input style */
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Submit button style */
+.form-button {
   background-color: #007bff;
   color: #fff;
   padding: 10px 20px;
@@ -45,16 +70,6 @@ input {
   font-size: 16px;
 }
 
-input:hover {
+.form-button:hover {
   background-color: #0056b3;
 }
-
-ul {
-  list-style-type: disc;
-  margin: 10px 0;
-}
-
-ul li {
-  margin-bottom: 5px;
-}
-
