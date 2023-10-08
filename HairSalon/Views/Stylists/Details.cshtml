@@ -17,10 +17,10 @@
 else
 {
   <h3>Client List:</h3>
-  <ul>
+  <ul class="detail-list">
     @foreach (Client client in Model.Clients)
     {
-      <li>@Html.ActionLink($"{client.Description}", "Details", "Items", new { id = client.ClientId })</li>
+      <li>@Html.ActionLink($"{client.Description}", "Details", "Clients", new { id = client.ClientId })</li>
     }
   </ul>
 }

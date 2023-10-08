@@ -73,3 +73,23 @@ h4 {
 .form-button:hover {
   background-color: #0056b3;
 }
+
+/* Styling for the details */
+.detail-list {
+  padding-left: 20px; 
+  margin-top: 20px;
+}
+
+.detail-list li {
+  margin-bottom: 10px;
+}
+
+.detail-link {
+  color: #0004ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.detail-link:hover {
+  color: #0056b3;
+}
